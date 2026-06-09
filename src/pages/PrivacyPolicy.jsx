@@ -40,13 +40,6 @@ function PrivacyPolicy() {
             policies.
           </p>
 
-          <h2>Google AdSense</h2>
-
-          <p>
-            Google may use cookies to serve ads based on your
-            visit to this website and other websites on the
-            internet.
-          </p>
 
           <h2>Contact</h2>
 
