@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import "../styles/home.css";
 import "../styles/global.css";
 
@@ -16,6 +17,28 @@ const categories = [
 function Home() {
   return (
     <>
+      <Helmet>
+        <title>
+          Free Sample Files Download | PDF, Word, Excel, CSV,
+          Images, Audio & Video
+        </title>
+
+        <meta
+          name="description"
+          content="Download free sample files for testing and development. Get PDF sample files, Word documents, Excel spreadsheets, CSV files, images, audio, video and PowerPoint files instantly."
+        />
+
+        <meta
+          name="keywords"
+          content="sample files, test files, dummy files, pdf sample file, word sample file, excel sample file, csv sample file, image sample file, audio sample file, video sample file, powerpoint sample file, download sample files"
+        />
+
+        <link
+          rel="canonical"
+          href="https://samplefiles.chtechgiant.com/"
+        />
+      </Helmet>
+
       <section className="hero">
         <div className="container hero-content">
           <span className="hero-badge">
@@ -28,9 +51,11 @@ function Home() {
           </h1>
 
           <p>
-            Get high-quality sample PDF, Word, Excel, CSV,
-            Image, Audio, Video and PowerPoint files for
-            testing, development, learning and demos.
+            Download free sample PDF files, Word documents,
+            Excel spreadsheets, CSV files, images, audio,
+            video and PowerPoint presentations for testing,
+            development, software demos, QA validation and
+            educational purposes.
           </p>
 
           <div className="hero-buttons">
@@ -45,7 +70,7 @@ function Home() {
 
           <div className="hero-stats">
             <div>
-              <strong>Multiple Types</strong>
+              <strong>100+</strong>
               <span>Sample Files</span>
             </div>
 
@@ -65,11 +90,13 @@ function Home() {
       <section id="categories" className="categories">
         <div className="container">
           <div className="section-header">
-            <h2>Browse Categories</h2>
+            <h2>Browse Sample File Categories</h2>
 
             <p>
-              Select a category and download sample files
-              instantly.
+              Find and download free sample files in multiple
+              formats including PDF, DOCX, XLSX, CSV, JPG,
+              PNG, MP3, MP4 and PPT for testing applications,
+              websites, APIs and software projects.
             </p>
           </div>
 
@@ -88,6 +115,30 @@ function Home() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="seo-content">
+        <div className="container">
+          <h2>Free Sample Files for Testing and Development</h2>
+
+          <p>
+            Sample Files provides a collection of free test
+            files for developers, students, software testers,
+            businesses and QA engineers. Whether you need a
+            sample PDF document, Word file, Excel spreadsheet,
+            CSV dataset, image file, audio clip, video file or
+            PowerPoint presentation, you can download them
+            instantly without registration.
+          </p>
+
+          <p>
+            These files are useful for software testing,
+            website development, file upload validation,
+            database imports, API integration testing, mobile
+            application development, cloud storage testing and
+            educational demonstrations.
+          </p>
         </div>
       </section>
     </>
