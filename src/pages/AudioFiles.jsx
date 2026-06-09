@@ -59,12 +59,7 @@ function AudioFiles() {
             streaming systems, upload forms and audio converters.
           </p>
 
-          <div className="related-links">
-            <a href="/video-files">Video Files</a>
-            <a href="/image-files">Image Files</a>
-            <a href="/pdf-files">PDF Files</a>
-            <a href="/word-files">Word Files</a>
-          </div>
+          
         </div>
       </section>
 

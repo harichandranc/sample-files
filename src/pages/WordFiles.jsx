@@ -99,13 +99,6 @@ function WordFiles() {
             for testing Microsoft Word, Google Docs, LibreOffice,
             document management systems, and online converters.
           </p>
-
-          <div className="related-links">
-            <a href="/pdf-files">PDF Files</a>
-            <a href="/excel-files">Excel Files</a>
-            <a href="/csv-files">CSV Files</a>
-            <a href="/ppt-files">PowerPoint Files</a>
-          </div>
         </div>
       </section>
 

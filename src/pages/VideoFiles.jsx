@@ -59,12 +59,6 @@ function VideoFiles() {
             video streaming, media players and content delivery systems.
           </p>
 
-          <div className="related-links">
-            <a href="/audio-files">Audio Files</a>
-            <a href="/image-files">Image Files</a>
-            <a href="/pdf-files">PDF Files</a>
-            <a href="/ppt-files">PowerPoint Files</a>
-          </div>
         </div>
       </section>
 

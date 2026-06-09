@@ -4,17 +4,17 @@ import "../styles/category.css";
 function PdfFiles() {
   const files = [
     {
-      name: "Sample PDF (200 KB)",
+      name: "Sample PDF",
       size: "200 KB",
       path: "files/pdf/sample PDF (200KB).pdf",
     },
     {
-      name: "Sample PDF (300 KB)",
+      name: "Sample PDF",
       size: "300 KB",
       path: "files/pdf/sample PDF (300 KB).pdf",
     },
     {
-      name: "Sample PDF (1.5 MB)",
+      name: "Sample PDF",
       size: "1.5 MB",
       path: "/files/pdf/sample PDF (1.5MB).pdf",
     },
@@ -67,12 +67,7 @@ function PdfFiles() {
             viewers and cloud storage platforms.
           </p>
 
-          <div className="related-links">
-            <a href="/word-files">Word Files</a>
-            <a href="/excel-files">Excel Files</a>
-            <a href="/csv-files">CSV Files</a>
-            <a href="/ppt-files">PowerPoint Files</a>
-          </div>
+         
         </div>
       </section>
 

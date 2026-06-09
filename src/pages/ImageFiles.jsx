@@ -69,12 +69,7 @@ function ImageFiles() {
             compression tools, galleries, editors and web applications.
           </p>
 
-          <div className="related-links">
-            <a href="/pdf-files">PDF Files</a>
-            <a href="/word-files">Word Files</a>
-            <a href="/video-files">Video Files</a>
-            <a href="/audio-files">Audio Files</a>
-          </div>
+          
         </div>
       </section>
 

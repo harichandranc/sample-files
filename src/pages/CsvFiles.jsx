@@ -59,12 +59,7 @@ function CsvFiles() {
             spreadsheet testing and data migration projects.
           </p>
 
-          <div className="related-links">
-            <a href="/pdf-files">PDF Files</a>
-            <a href="/word-files">Word Files</a>
-            <a href="/excel-files">Excel Files</a>
-            <a href="/ppt-files">PowerPoint Files</a>
-          </div>
+          
         </div>
       </section>
 

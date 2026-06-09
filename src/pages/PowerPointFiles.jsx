@@ -59,12 +59,7 @@ function PowerPointFiles() {
             software, office applications and document conversion tools.
           </p>
 
-          <div className="related-links">
-            <a href="/pdf-files">PDF Files</a>
-            <a href="/word-files">Word Files</a>
-            <a href="/excel-files">Excel Files</a>
-            <a href="/video-files">Video Files</a>
-          </div>
+          
         </div>
       </section>
 

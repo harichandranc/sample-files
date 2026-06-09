@@ -59,12 +59,7 @@ function ExcelFiles() {
             applications, data analysis software and import/export systems.
           </p>
 
-          <div className="related-links">
-            <a href="/pdf-files">PDF Files</a>
-            <a href="/word-files">Word Files</a>
-            <a href="/csv-files">CSV Files</a>
-            <a href="/ppt-files">PowerPoint Files</a>
-          </div>
+          
         </div>
       </section>
 
