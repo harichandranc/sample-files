@@ -75,6 +75,7 @@ function ImageFiles() {
 
       <section className="faq-section">
         <div className="container">
+          <h3>FAQS?</h3>
           <div className="faq-item">
             <h3>Are these image files free?</h3>
             <p>Yes, all image files are free to download.</p>
