@@ -65,6 +65,7 @@ function PowerPointFiles() {
 
       <section className="faq-section">
         <div className="container">
+          <h2>FAQS?</h2>
           <div className="faq-item">
             <h3>Are these PowerPoint files free?</h3>
             <p>Yes, all PPT files are free.</p>

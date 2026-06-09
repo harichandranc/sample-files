@@ -65,6 +65,7 @@ function AudioFiles() {
 
       <section className="faq-section">
         <div className="container">
+          <h2>FAQS?</h2>
           <div className="faq-item">
             <h3>Are these audio files free?</h3>
             <p>Yes, all sample audio files are free.</p>

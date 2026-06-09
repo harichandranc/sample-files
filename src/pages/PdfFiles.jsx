@@ -73,6 +73,7 @@ function PdfFiles() {
 
       <section className="faq-section">
         <div className="container">
+          <h2>FAQS?</h2>
           <div className="faq-item">
             <h3>Are these PDF files free?</h3>
             <p>

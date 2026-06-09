@@ -65,6 +65,7 @@ function CsvFiles() {
 
       <section className="faq-section">
         <div className="container">
+          <h2>FAQS?</h2>
           <div className="faq-item">
             <h3>Are these CSV files free?</h3>
             <p>Yes, they are free to download.</p>
