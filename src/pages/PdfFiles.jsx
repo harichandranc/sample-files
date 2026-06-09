@@ -4,19 +4,19 @@ import "../styles/category.css";
 function PdfFiles() {
   const files = [
     {
-      name: "Sample PDF (100 KB)",
-      size: "100 KB",
-      path: "/files/pdf/sample-100kb.pdf",
+      name: "Sample PDF (200 KB)",
+      size: "200 KB",
+      path: "files/pdf/sample PDF (200KB).pdf",
     },
     {
-      name: "Sample PDF (500 KB)",
-      size: "500 KB",
-      path: "/files/pdf/sample-500kb.pdf",
+      name: "Sample PDF (300 KB)",
+      size: "300 KB",
+      path: "files/pdf/sample PDF (300 KB).pdf",
     },
     {
-      name: "Sample PDF (1 MB)",
-      size: "1 MB",
-      path: "/files/pdf/sample-1mb.pdf",
+      name: "Sample PDF (1.5 MB)",
+      size: "1.5 MB",
+      path: "/files/pdf/sample PDF (1.5MB).pdf",
     },
   ];
 

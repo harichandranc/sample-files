@@ -3,19 +3,29 @@ import "../styles/category.css";
 function ImageFiles() {
   const files = [
     {
-      name: "Sample JPG (100 KB)",
+      name: "Sample JPG",
       size: "100 KB",
-      path: "/files/images/sample-100kb.jpg",
+      path: "/files/image/sample.jpg",
     },
     {
-      name: "Sample PNG (500 KB)",
-      size: "500 KB",
-      path: "/files/images/sample-500kb.png",
+      name: "Sample PNG",
+      size: "800 KB",
+      path: "/files/image/sample.png",
     },
     {
-      name: "Sample JPG (1 MB)",
-      size: "1 MB",
-      path: "/files/images/sample-1mb.jpg",
+      name: "Sample WEBP",
+      size: "50 KB",
+      path: "/files/image/sample.webp",
+    },
+    {
+      name: "Sample Icon",
+      size: "2 KB",
+      path: "/files/image/sample.ico",
+    },
+    {
+      name: "Sample Icon",
+      size: "30 KB",
+      path: "/files/image/sample.avif",
     },
   ];
 
@@ -26,7 +36,7 @@ function ImageFiles() {
           <h1>Download Sample Image Files</h1>
 
           <p>
-            Download free sample JPG, PNG and image files for testing
+            Download free sample JPG, PNG, WEBP, Avif and icon files for testing
             uploads, image processing tools, galleries and websites.
           </p>
         </div>

@@ -1,25 +1,31 @@
-
 .page-header {
+  padding: 100px 20px;
   text-align: center;
-  padding: 80px 20px;
-  background: white;
-  border-bottom: 1px solid #e5e7eb;
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #4f46e5
+  );
+  color: white;
 }
 
 .page-header h1 {
-  font-size: 48px;
+  font-size: 54px;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .page-header p {
-  max-width: 800px;
+  max-width: 850px;
   margin: auto;
-  color: #64748b;
+  font-size: 18px;
   line-height: 1.8;
+  opacity: 0.95;
 }
 
 .files-section {
-  padding: 60px 0;
+  padding: 80px 0;
+  background: #f8fafc;
 }
 
 .files-grid {
@@ -28,37 +34,58 @@
   margin: auto;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(320px, 1fr)
+  );
+  gap: 30px;
 }
 
 .file-card {
   background: white;
-  padding: 25px;
-  border-radius: 16px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.file-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(37,99,235,0.12);
 }
 
 .file-card h3 {
+  font-size: 24px;
   margin-bottom: 15px;
+  color: #111827;
 }
 
 .file-card p {
   color: #64748b;
-  margin-bottom: 20px;
+  line-height: 1.7;
+  margin-bottom: 25px;
 }
 
 .download-btn {
-  display: inline-block;
-  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
   background: #2563eb;
   color: white;
+  text-decoration: none;
+
   padding: 12px 24px;
-  border-radius: 8px;
+  border-radius: 10px;
+
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
 .download-btn:hover {
   background: #1d4ed8;
+  transform: translateY(-2px);
 }
 
 .info-section,
@@ -66,16 +93,24 @@
   width: 90%;
   max-width: 1200px;
   margin: auto;
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 .info-section h2,
 .faq-section h2 {
-  margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: #111827;
+}
+
+.info-section p,
+.faq-section p {
+  color: #64748b;
+  line-height: 1.8;
 }
 
 .related-links {
-  margin-top: 25px;
+  margin-top: 30px;
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
@@ -83,16 +118,61 @@
 
 .related-links a {
   text-decoration: none;
-  background: #eff6ff;
+  background: white;
   color: #2563eb;
-  padding: 10px 15px;
-  border-radius: 8px;
+  border: 1px solid #dbeafe;
+
+  padding: 12px 18px;
+  border-radius: 10px;
+
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.related-links a:hover {
+  background: #2563eb;
+  color: white;
 }
 
 .faq-item {
   background: white;
-  padding: 20px;
-  margin-bottom: 15px;
-  border-radius: 12px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.faq-item h3 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #111827;
+}
+
+.faq-item p {
+  color: #64748b;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding: 70px 20px;
+  }
+
+  .page-header h1 {
+    font-size: 38px;
+  }
+
+  .page-header p {
+    font-size: 16px;
+  }
+
+  .files-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-section h2,
+  .faq-section h2 {
+    font-size: 28px;
+  }
 }
