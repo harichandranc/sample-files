@@ -5,17 +5,17 @@ function WordFiles() {
     {
       name: "Sample DOCX (100 KB)",
       size: "100 KB",
-      path: "/files/word/sample-100kb.docx",
+      path: "/word/sample(100kb).docx",
     },
     {
       name: "Sample DOCX (500 KB)",
       size: "500 KB",
-      path: "/files/word/sample-500kb.docx",
+      path: "/word/sample(500kb).docx",
     },
     {
-      name: "Sample DOCX (1 MB)",
-      size: "1 MB",
-      path: "/files/word/sample-1mb.docx",
+      name: "Sample DOCX (1.5 MB)",
+      size: "1.5 MB",
+      path: "/word/sample(1.5mb).docx",
     },
   ];
 
