@@ -1,0 +1,98 @@
+
+.page-header {
+  text-align: center;
+  padding: 80px 20px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.page-header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.page-header p {
+  max-width: 800px;
+  margin: auto;
+  color: #64748b;
+  line-height: 1.8;
+}
+
+.files-section {
+  padding: 60px 0;
+}
+
+.files-grid {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.file-card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.file-card h3 {
+  margin-bottom: 15px;
+}
+
+.file-card p {
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.download-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+.download-btn:hover {
+  background: #1d4ed8;
+}
+
+.info-section,
+.faq-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.info-section h2,
+.faq-section h2 {
+  margin-bottom: 20px;
+}
+
+.related-links {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.related-links a {
+  text-decoration: none;
+  background: #eff6ff;
+  color: #2563eb;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.faq-item {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}

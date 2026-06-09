@@ -1,3 +1,4 @@
+import "../styles/layout.css";
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
@@ -17,6 +18,7 @@ function Navbar() {
           <NavLink to="/image-files">Images</NavLink>
           <NavLink to="/audio-files">Audio</NavLink>
           <NavLink to="/video-files">Video</NavLink>
+          <NavLink to="/ppt-files">PowerPoint</NavLink>
         </div>
       </div>
     </nav>

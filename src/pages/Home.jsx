@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../styles/home.css";
+import "../styles/global.css";
 
 const categories = [
   {
