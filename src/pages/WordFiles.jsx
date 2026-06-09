@@ -57,7 +57,7 @@ function WordFiles() {
 
       <section className="files-section">
         <div className="container">
-          <h2 className="section-title">Available DOCX Files</h2>
+          
 
           <div className="files-grid">
             {files.map((file) => (
