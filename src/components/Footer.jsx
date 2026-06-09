@@ -29,18 +29,22 @@ function Footer() {
             </div>
           </div>
 
-          {/* Company */}
           <div className="footer-column">
-            <h4>Company</h4>
 
-            <Link to="/"> CH TECH GIANT</Link>
-            <Link to="/about">About Us</Link>
-            <Link to="/contact">Contact Us</Link>
-            <Link to="/privacy-policy">Privacy Policy</Link>
-            <Link to="/terms-and-conditions">Terms & Conditions</Link>
-            
+  <h4>Company</h4>
 
-          </div>
+  <a
+    href="https://chtechgiant.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    CH TECH GIANT
+  </a>
+
+  <Link to="/about-us">About Us</Link>
+  <Link to="/contact-us">Contact Us</Link>
+  <Link to="/privacy-policy">Privacy Policy</Link>
+</div>
 
           {/* Branding */}
           <div className="footer-column footer-brand">
@@ -59,30 +63,20 @@ function Footer() {
         </div>
 
         <div className="footer-bottom">
+  <p>
+    © 2026 Sample Files. All Rights Reserved.
+  </p>
 
-          <p>
-            © 2026 Sample Files. All Rights Reserved.
-          </p>
-
-          <div className="footer-bottom-links">
-            <Link to="/privacy-policy">
-              Privacy Policy
-            </Link>
-
-            <Link to="/about">
-              About
-            </Link>
-
-            <Link to="/contact">
-              Contact
-            </Link>
-
-            <span>
-              Developed by CH Tech Giant
-            </span>
-          </div>
-
-        </div>
+  <div className="footer-bottom-links">
+    <a
+      href="https://chtechgiant.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Developed by CH Tech Giant
+    </a>
+  </div>
+</div>
 
       </div>
     </footer>

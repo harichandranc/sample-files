@@ -19,23 +19,41 @@ function Home() {
     <>
       <Helmet>
         <title>
-          Free Sample Files Download | PDF, Word, Excel, CSV,
-          Images, Audio & Video
+          Free Sample Files Download | PDF, Word, Excel, CSV, Images, Audio & Video
         </title>
 
         <meta
           name="description"
-          content="Download free sample files for testing and development. Get PDF sample files, Word documents, Excel spreadsheets, CSV files, images, audio, video and PowerPoint files instantly."
+          content="Download free sample PDF files, Word documents, Excel spreadsheets, CSV files, images, audio files, video files and PowerPoint presentations for testing, development, software validation and educational purposes."
         />
 
         <meta
           name="keywords"
-          content="sample files, test files, dummy files, pdf sample file, word sample file, excel sample file, csv sample file, image sample file, audio sample file, video sample file, powerpoint sample file, download sample files"
+          content="sample files, test files, dummy files, free sample files, pdf sample file download, sample pdf, word sample file, docx sample file, excel sample file, xlsx sample file, csv sample file, image sample file, jpg sample file, png sample file, audio sample file, mp3 sample file, video sample file, mp4 sample file, powerpoint sample file, ppt sample file, testing files, upload test files, download sample files"
+        />
+
+        <meta name="robots" content="index, follow" />
+
+        <meta
+          property="og:title"
+          content="Free Sample Files Download"
+        />
+
+        <meta
+          property="og:description"
+          content="Download PDF, Word, Excel, CSV, Image, Audio, Video and PowerPoint sample files for testing and development."
+        />
+
+        <meta property="og:type" content="website" />
+
+        <meta
+          property="og:url"
+          content="https://samplefiles.chtechgiant.com"
         />
 
         <link
           rel="canonical"
-          href="https://samplefiles.chtechgiant.com/"
+          href="https://samplefiles.chtechgiant.com"
         />
       </Helmet>
 
@@ -47,15 +65,14 @@ function Home() {
 
           <h1>
             Download Free
-            <span> Sample Files</span>
+            <span>Sample Files</span>
           </h1>
 
           <p>
-            Download free sample PDF files, Word documents,
-            Excel spreadsheets, CSV files, images, audio,
-            video and PowerPoint presentations for testing,
-            development, software demos, QA validation and
-            educational purposes.
+            Download free sample PDF, Word, Excel, CSV,
+            Image, Audio, Video and PowerPoint files for
+            testing, development, education and software
+            validation.
           </p>
 
           <div className="hero-buttons">
@@ -70,12 +87,12 @@ function Home() {
 
           <div className="hero-stats">
             <div>
-              <strong>100+</strong>
+              <strong>Multiple</strong>
               <span>Sample Files</span>
             </div>
 
             <div>
-              <strong>8</strong>
+              <strong>All</strong>
               <span>Categories</span>
             </div>
 
@@ -93,10 +110,8 @@ function Home() {
             <h2>Browse Sample File Categories</h2>
 
             <p>
-              Find and download free sample files in multiple
-              formats including PDF, DOCX, XLSX, CSV, JPG,
-              PNG, MP3, MP4 and PPT for testing applications,
-              websites, APIs and software projects.
+              Download sample PDF, Word, Excel, CSV, Image,
+              Audio, Video and PowerPoint files instantly.
             </p>
           </div>
 
@@ -108,9 +123,7 @@ function Home() {
                 className="category-card"
               >
                 <div className="icon">{item.icon}</div>
-
                 <h3>{item.title}</h3>
-
                 <span>View Files →</span>
               </Link>
             ))}
@@ -123,21 +136,22 @@ function Home() {
           <h2>Free Sample Files for Testing and Development</h2>
 
           <p>
-            Sample Files provides a collection of free test
-            files for developers, students, software testers,
-            businesses and QA engineers. Whether you need a
-            sample PDF document, Word file, Excel spreadsheet,
-            CSV dataset, image file, audio clip, video file or
-            PowerPoint presentation, you can download them
-            instantly without registration.
+            Sample Files provides free downloadable test
+            files for developers, QA engineers, software
+            testers, students, businesses and educators.
+            Download PDF sample files, Word documents,
+            Excel spreadsheets, CSV datasets, images,
+            audio files, video files and PowerPoint
+            presentations for testing applications,
+            websites, APIs and software systems.
           </p>
 
           <p>
-            These files are useful for software testing,
-            website development, file upload validation,
-            database imports, API integration testing, mobile
-            application development, cloud storage testing and
-            educational demonstrations.
+            These sample files are commonly used for file
+            upload testing, software validation, file
+            conversion testing, cloud storage integration,
+            educational demonstrations and development
+            projects.
           </p>
         </div>
       </section>
