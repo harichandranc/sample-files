@@ -1,126 +1,34 @@
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const categories = [
-  {
-    title: "PDF Files",
-    files: [
-      {
-        name: "Sample PDF (100 KB)",
-        path: "/files/pdf/sample-100kb.pdf",
-      },
-      {
-        name: "Sample PDF (1 MB)",
-        path: "/files/pdf/sample-1mb.pdf",
-      },
-    ],
-  },
+import MainLayout from "./layouts/MainLayout";
 
-  {
-    title: "Word Files",
-    files: [
-      {
-        name: "Sample DOCX",
-        path: "/files/docx/sample.docx",
-      },
-    ],
-  },
-
-  {
-    title: "Excel Files",
-    files: [
-      {
-        name: "Sample XLSX",
-        path: "/files/xlsx/sample.xlsx",
-      },
-    ],
-  },
-
-  {
-    title: "CSV Files",
-    files: [
-      {
-        name: "Sample CSV",
-        path: "/files/csv/sample.csv",
-      },
-    ],
-  },
-
-  {
-    title: "Images",
-    files: [
-      {
-        name: "Sample JPG",
-        path: "/files/jpg/sample.jpg",
-      },
-      {
-        name: "Sample PNG",
-        path: "/files/png/sample.png",
-      },
-    ],
-  },
-
-  {
-    title: "Audio Files",
-    files: [
-      {
-        name: "Sample MP3",
-        path: "/files/mp3/sample.mp3",
-      },
-    ],
-  },
-
-  {
-    title: "Video Files",
-    files: [
-      {
-        name: "Sample MP4",
-        path: "/files/mp4/sample.mp4",
-      },
-    ],
-  },
-
-  {
-    title: "ZIP Files",
-    files: [
-      {
-        name: "Sample ZIP",
-        path: "/files/zip/sample.zip",
-      },
-    ],
-  },
-];
+import Home from "./pages/Home";
+import PdfFiles from "./pages/PdfFiles";
+import WordFiles from "./pages/WordFiles";
+import ExcelFiles from "./pages/ExcelFiles";
+import CsvFiles from "./pages/CsvFiles";
+import ImageFiles from "./pages/ImageFiles";
+import AudioFiles from "./pages/AudioFiles";
+import VideoFiles from "./pages/VideoFiles";
+import PowerPointFiles from "./pages/PowerPointFiles";
 
 function App() {
   return (
-    <div className="container">
-      <header>
-        <h1>Sample Files Download</h1>
-
-        <p>
-          Download free PDF, DOCX, XLSX, CSV, JPG, PNG,
-          MP3, MP4 and ZIP sample files for testing.
-        </p>
-      </header>
-
-      <div className="grid">
-        {categories.map((category) => (
-          <div className="card" key={category.title}>
-            <h2>{category.title}</h2>
-
-            {category.files.map((file) => (
-              <a
-                key={file.path}
-                href={file.path}
-                download
-                className="download-btn"
-              >
-                {file.name}
-              </a>
-            ))}
-          </div>
-        ))}
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/pdf-files" element={<PdfFiles />} />
+          <Route path="/word-files" element={<WordFiles />} />
+          <Route path="/excel-files" element={<ExcelFiles />} />
+          <Route path="/csv-files" element={<CsvFiles />} />
+          <Route path="/image-files" element={<ImageFiles />} />
+          <Route path="/audio-files" element={<AudioFiles />} />
+          <Route path="/video-files" element={<VideoFiles />} />
+          <Route path="/ppt-files" element={<PowerPointFiles />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
