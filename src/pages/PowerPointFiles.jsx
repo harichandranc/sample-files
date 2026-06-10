@@ -5,17 +5,17 @@ function PowerPointFiles() {
     {
       name: "Sample PPTX (100 KB)",
       size: "100 KB",
-      path: "/files/ppt/sample-100kb.pptx",
+      path: "/files/ppt/sample100kb.pptx",
     },
     {
       name: "Sample PPTX (500 KB)",
       size: "500 KB",
-      path: "/files/ppt/sample-500kb.pptx",
+      path: "/files/ppt/sample500kb.pptx",
     },
     {
-      name: "Sample PPTX (1 MB)",
-      size: "1 MB",
-      path: "/files/ppt/sample-1mb.pptx",
+      name: "Sample PPTX (1.5 MB)",
+      size: "1.5 MB",
+      path: "/files/ppt/sample1.5mb.pptx",
     },
   ];
 
