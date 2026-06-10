@@ -1,48 +1,97 @@
+import { Helmet } from "react-helmet-async";
 import "../styles/category.css";
 
 function AudioFiles() {
   const files = [
     {
-      name: "Sample MP3 (100 KB)",
+      name: "Sample MP3 File (100 KB)",
       size: "100 KB",
       path: "/files/audio/sample-100kb.mp3",
     },
     {
-      name: "Sample MP3 (500 KB)",
+      name: "Sample MP3 File (500 KB)",
       size: "500 KB",
       path: "/files/audio/sample-500kb.mp3",
     },
     {
-      name: "Sample MP3 (1 MB)",
-      size: "1 MB",
-      path: "/files/audio/sample-1mb.mp3",
+      name: "Sample MP3 File (1.5 MB)",
+      size: "1.5 MB",
+      path: "/files/audio/sample1.5mb.mp3",
+    },
+    {
+      name: "Sample WAV File (100 KB)",
+      size: "100 KB",
+      path: "/files/audio/sample100kb.wav",
+    },
+    {
+      name: "Sample WAV File (500 KB)",
+      size: "500 KB",
+      path: "/files/audio/sample500kb.wav",
+    },
+    {
+      name: "Sample WAV File (1.5 MB)",
+      size: "1.5 MB",
+      path: "/files/audio/sample1.5mb.wav",
     },
   ];
 
   return (
     <>
+      <Helmet>
+        <title>
+          Download Sample Audio Files (MP3 & WAV) Free | Sample Files
+        </title>
+
+        <meta
+          name="description"
+          content="Download free sample MP3 and WAV audio files for testing uploads, media players, streaming platforms, audio converters, websites, mobile apps, and software."
+        />
+
+        <meta
+          name="keywords"
+          content="sample mp3 file download, sample wav file, test audio file, mp3 sample download, wav sample download, audio test file"
+        />
+
+        <link
+          rel="canonical"
+          href="https://samplefiles.chtechgiant.com/audio-files"
+        />
+      </Helmet>
+
       <section className="page-header">
         <div className="container">
-          <h1>Download Sample Audio Files</h1>
+          <h1>Download Sample Audio Files (MP3 & WAV)</h1>
 
           <p>
-            Download free sample audio files for testing music players,
-            uploads, streaming platforms and media applications.
+            Download free sample MP3 and WAV audio files for testing
+            uploads, audio players, streaming services, media apps,
+            file converters, websites, and software applications.
           </p>
         </div>
       </section>
 
       <section className="files-section">
         <div className="container">
+          <h2 className="section-title">
+            Available Audio Sample Files
+          </h2>
+
           <div className="files-grid">
             {files.map((file) => (
               <div className="file-card" key={file.path}>
                 <h3>{file.name}</h3>
 
-                <p>File Size: {file.size}</p>
+                <p>
+                  <strong>File Size:</strong> {file.size}
+                </p>
 
-                <a href={file.path} download className="download-btn">
-                  Download Audio
+                <a
+                  href={file.path}
+                  download
+                  className="download-btn"
+                  aria-label={`Download ${file.name}`}
+                >
+                  Download Audio File
                 </a>
               </div>
             ))}
@@ -52,33 +101,76 @@ function AudioFiles() {
 
       <section className="info-section">
         <div className="container">
-          <h2>About Audio Sample Files</h2>
+          <h2>About Sample Audio Files</h2>
 
           <p>
-            Audio sample files help developers test media players,
-            streaming systems, upload forms and audio converters.
+            Sample audio files are commonly used by developers,
+            designers, students, and businesses to test media players,
+            upload forms, streaming platforms, audio processing tools,
+            and file conversion systems.
           </p>
 
-          
+          <p>
+            Our audio samples are available in both MP3 and WAV formats,
+            making them suitable for testing compatibility across
+            websites, mobile applications, desktop software, cloud
+            storage systems, and multimedia platforms.
+          </p>
+
+          <h3>Common Uses</h3>
+
+          <ul>
+            <li>Audio upload testing</li>
+            <li>Media player testing</li>
+            <li>Audio converter testing</li>
+            <li>Streaming platform testing</li>
+            <li>Website and app development</li>
+            <li>File validation testing</li>
+          </ul>
         </div>
       </section>
 
       <section className="faq-section">
         <div className="container">
-          <h2>FAQS?</h2>
+          <h2>Frequently Asked Questions</h2>
+
           <div className="faq-item">
-            <h3>Are these audio files free?</h3>
-            <p>Yes, all sample audio files are free.</p>
+            <h3>Are these audio files free to download?</h3>
+            <p>
+              Yes. All sample MP3 and WAV files are completely free to
+              download and use.
+            </p>
           </div>
 
           <div className="faq-item">
-            <h3>Can I use them for media testing?</h3>
-            <p>Yes, they are designed for testing purposes.</p>
+            <h3>Can I use these files for testing?</h3>
+            <p>
+              Yes. These files are specifically created for upload,
+              streaming, media player, and conversion testing.
+            </p>
           </div>
 
           <div className="faq-item">
-            <h3>Do I need an account?</h3>
-            <p>No account is required.</p>
+            <h3>What audio formats are available?</h3>
+            <p>
+              We currently provide MP3 and WAV audio sample files in
+              multiple sizes.
+            </p>
+          </div>
+
+          <div className="faq-item">
+            <h3>Do I need to create an account?</h3>
+            <p>
+              No registration or account creation is required.
+            </p>
+          </div>
+
+          <div className="faq-item">
+            <h3>Are these files safe?</h3>
+            <p>
+              Yes. All sample files are safe and intended only for
+              testing and educational purposes.
+            </p>
           </div>
         </div>
       </section>
