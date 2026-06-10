@@ -5,17 +5,17 @@ function CsvFiles() {
     {
       name: "Sample CSV (100 KB)",
       size: "100 KB",
-      path: "/files/csv/sample-100kb.csv",
+      path: "/files/csv/sample100kb.csv",
     },
     {
       name: "Sample CSV (500 KB)",
       size: "500 KB",
-      path: "/files/csv/sample-500kb.csv",
+      path: "/files/csv/sample500kb.csv",
     },
     {
-      name: "Sample CSV (1 MB)",
-      size: "1 MB",
-      path: "/files/csv/sample-1mb.csv",
+      name: "Sample CSV (1.5 MB)",
+      size: "1.5 MB",
+      path: "/files/csv/sample1.5mb.csv",
     },
   ];
 
