@@ -5,17 +5,17 @@ function ExcelFiles() {
     {
       name: "Sample XLSX (100 KB)",
       size: "100 KB",
-      path: "/files/excel/sample-100kb.xlsx",
+      path: "/files/excel/sample100kb.xlsx",
     },
     {
       name: "Sample XLSX (500 KB)",
       size: "500 KB",
-      path: "/files/excel/sample-500kb.xlsx",
+      path: "/files/excel/sample500kb.xlsx",
     },
     {
-      name: "Sample XLSX (1 MB)",
-      size: "1 MB",
-      path: "/files/excel/sample-1mb.xlsx",
+      name: "Sample XLSX (1.5 MB)",
+      size: "1.5 MB",
+      path: "/files/excel/sample1.5mb.xlsx",
     },
   ];
 
