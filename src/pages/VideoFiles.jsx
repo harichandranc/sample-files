@@ -1,19 +1,21 @@
 import "../styles/category.css";
+import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 function VideoFiles() {
   const files = [
     {
-      name: "Sample MP4 (1 MB)",
+      name: "Sample MP4 Video (1 MB)",
       size: "1 MB",
       path: "/files/video/sample-1mb.mp4",
     },
     {
-      name: "Sample MP4 (5 MB)",
+      name: "Sample MP4 Video (5 MB)",
       size: "5 MB",
       path: "/files/video/sample-5mb.mp4",
     },
     {
-      name: "Sample MP4 (10 MB)",
+      name: "Sample MP4 Video (10 MB)",
       size: "10 MB",
       path: "/files/video/sample-10mb.mp4",
     },
@@ -21,13 +23,68 @@ function VideoFiles() {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Download Sample Video Files (MP4) Free - 1 MB, 5 MB, 10 MB
+        </title>
+
+        <meta
+          name="description"
+          content="Download free sample MP4 video files for testing uploads, video streaming platforms, media players, video converters, content delivery networks, and software applications."
+        />
+
+        <meta
+          name="keywords"
+          content="sample video file download, sample mp4 file, mp4 test file, free video files, video upload testing, sample mp4 video, download sample video, video testing files"
+        />
+
+        <link
+          rel="canonical"
+          href="https://samplefiles.chtechgiant.com/video-files"
+        />
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Are these video files free to download?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, all sample video files are completely free to download.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can I use these videos for streaming tests?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, these video files are ideal for testing streaming platforms, media players, and upload systems.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do I need registration?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No registration or account creation is required.",
+                },
+              },
+            ],
+          })}
+        </script>
+      </Helmet>
+
       <section className="page-header">
         <div className="container">
-          <h1>Download Sample Video Files</h1>
+          <h1>Download Sample Video Files (MP4)</h1>
 
           <p>
-            Download free sample MP4 video files for testing uploads,
-            streaming services, media players and applications.
+            Download free sample MP4 video files for testing uploads, video
+            streaming services, media players, content delivery networks (CDNs),
+            video converters, and software applications.
           </p>
         </div>
       </section>
@@ -41,7 +98,12 @@ function VideoFiles() {
 
                 <p>File Size: {file.size}</p>
 
-                <a href={file.path} download className="download-btn">
+                <a
+                  href={file.path}
+                  download
+                  className="download-btn"
+                  aria-label={`Download ${file.name}`}
+                >
                   Download Video
                 </a>
               </div>
@@ -52,32 +114,108 @@ function VideoFiles() {
 
       <section className="info-section">
         <div className="container">
-          <h2>About Video Sample Files</h2>
+          <h2>What Are MP4 Video Files?</h2>
 
           <p>
-            Video sample files are commonly used for testing uploads,
-            video streaming, media players and content delivery systems.
+            MP4 is one of the most popular video formats used across websites,
+            mobile devices, streaming platforms, social media networks, and
+            multimedia applications. It provides excellent video quality while
+            maintaining efficient file sizes.
           </p>
 
+          <p>
+            These sample MP4 video files are useful for developers, testers,
+            content creators, students, and businesses that need example videos
+            for upload testing, streaming validation, media processing, and
+            software development projects.
+          </p>
+
+          <h2>Common Uses of Sample Video Files</h2>
+
+          <ul>
+            <li>Video upload testing</li>
+            <li>Streaming platform validation</li>
+            <li>Media player compatibility testing</li>
+            <li>Video converter testing</li>
+            <li>Cloud storage application testing</li>
+            <li>CDN and content delivery testing</li>
+            <li>Software development projects</li>
+            <li>Quality assurance and QA testing</li>
+          </ul>
+
+          <h2>Why Download Sample MP4 Files?</h2>
+
+          <p>
+            Sample video files help developers verify upload limits, playback
+            functionality, buffering performance, streaming quality, thumbnail
+            generation, transcoding workflows, and compatibility across devices
+            and browsers.
+          </p>
+
+          <h2>Benefits of MP4 Format</h2>
+
+          <ul>
+            <li>Widely supported across devices and browsers</li>
+            <li>Excellent compression and video quality</li>
+            <li>Ideal for web streaming and downloads</li>
+            <li>Compatible with most video players</li>
+            <li>Suitable for mobile and desktop applications</li>
+          </ul>
+
+          <p>
+            Looking for more file formats? Browse our{" "}
+            <Link to="/sample-files">sample files collection</Link> including
+            PDF, DOCX, XLSX, CSV, JSON, XML, ZIP, JPG, PNG, MP3, and many
+            other file formats.
+          </p>
         </div>
       </section>
 
       <section className="faq-section">
         <div className="container">
-          <h2>FAQS?</h2>
+          <h2>Frequently Asked Questions</h2>
+
           <div className="faq-item">
-            <h3>Are these video files free?</h3>
-            <p>Yes, all sample videos are free to download.</p>
+            <h3>Are these video files free to download?</h3>
+            <p>
+              Yes. All sample MP4 video files are completely free to download
+              and use for testing, development, educational, and demonstration
+              purposes.
+            </p>
           </div>
 
           <div className="faq-item">
-            <h3>Can I use them for streaming tests?</h3>
-            <p>Yes, they are ideal for testing streaming platforms.</p>
+            <h3>Can I use these videos for streaming tests?</h3>
+            <p>
+              Yes. These sample videos are specifically designed for testing
+              streaming services, media players, upload systems, and video
+              processing applications.
+            </p>
           </div>
 
           <div className="faq-item">
             <h3>Do I need registration?</h3>
-            <p>No registration is required.</p>
+            <p>
+              No. You can download all sample video files instantly without
+              creating an account.
+            </p>
+          </div>
+
+          <div className="faq-item">
+            <h3>Which software can play MP4 files?</h3>
+            <p>
+              MP4 files can be played using VLC Media Player, Windows Media
+              Player, QuickTime Player, Google Chrome, Microsoft Edge, and most
+              modern media applications.
+            </p>
+          </div>
+
+          <div className="faq-item">
+            <h3>Are these sample videos safe?</h3>
+            <p>
+              Yes. All sample video files are created for testing purposes and
+              do not contain harmful code, malware, or security risks.
+            </p>
           </div>
         </div>
       </section>
