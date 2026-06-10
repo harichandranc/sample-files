@@ -130,45 +130,8 @@ function PowerPointFiles() {
             management systems, and office applications.
           </p>
 
-          <h2>Common Uses of Sample PowerPoint Files</h2>
+          
 
-          <ul>
-            <li>PowerPoint upload testing</li>
-            <li>Presentation software validation</li>
-            <li>Document conversion testing</li>
-            <li>Microsoft Office compatibility checks</li>
-            <li>Google Slides import testing</li>
-            <li>Cloud storage application testing</li>
-            <li>Software development projects</li>
-            <li>Quality assurance and QA testing</li>
-          </ul>
-
-          <h2>Why Download Sample PPTX Files?</h2>
-
-          <p>
-            Sample PowerPoint files help developers verify upload functionality,
-            file previews, presentation rendering, slide processing,
-            compatibility testing, and conversion workflows before launching
-            applications to users.
-          </p>
-
-          <h2>Software That Supports PPTX Files</h2>
-
-          <ul>
-            <li>Microsoft PowerPoint</li>
-            <li>Google Slides</li>
-            <li>LibreOffice Impress</li>
-            <li>WPS Presentation</li>
-            <li>Apple Keynote</li>
-            <li>Online presentation viewers</li>
-          </ul>
-
-          <p>
-            Looking for more file formats? Browse our{" "}
-            <Link to="/sample-files">sample files collection</Link> including
-            PDF, DOCX, XLSX, CSV, JSON, XML, ZIP, JPG, PNG, MP3, MP4, and many
-            other file formats.
-          </p>
         </div>
       </section>
 

@@ -91,31 +91,8 @@ function CsvFiles() {
             countless software applications.
           </p>
 
-          <p>
-            These sample CSV files contain realistic tabular data and
-            are useful for developers, testers, students, analysts,
-            and businesses that need sample datasets for testing
-            imports, exports, validation processes, and reporting tools.
-          </p>
 
-          <h2>Common Uses of Sample CSV Files</h2>
-
-          <ul>
-            <li>Database import testing</li>
-            <li>Spreadsheet application testing</li>
-            <li>Software development projects</li>
-            <li>ETL and data pipeline validation</li>
-            <li>Data migration testing</li>
-            <li>Machine learning datasets</li>
-            <li>Business intelligence dashboards</li>
-            <li>Quality assurance and QA testing</li>
-          </ul>
-
-          <p>
-            Looking for other file formats? Browse our{" "}
-            <Link to="/sample-files">sample files collection</Link>{" "}
-            including PDF, DOCX, XLSX, JSON, XML, ZIP, MP3, MP4 and more.
-          </p>
+         
         </div>
       </section>
 

@@ -130,44 +130,8 @@ function PdfFiles() {
             document management systems.
           </p>
 
-          <h2>Common Uses of Sample PDF Files</h2>
 
-          <ul>
-            <li>PDF upload testing</li>
-            <li>Document management systems</li>
-            <li>PDF reader validation</li>
-            <li>File conversion testing</li>
-            <li>Cloud storage platform testing</li>
-            <li>Software development projects</li>
-            <li>Quality assurance and QA testing</li>
-            <li>Document workflow automation</li>
-          </ul>
-
-          <h2>Why Download Sample PDF Files?</h2>
-
-          <p>
-            Sample PDF files help developers and testers verify upload limits,
-            document previews, file conversions, PDF rendering, download
-            functionality, and document processing workflows before releasing
-            applications to users.
-          </p>
-
-          <h2>Benefits of PDF Format</h2>
-
-          <ul>
-            <li>Maintains consistent formatting across devices</li>
-            <li>Compatible with almost all operating systems</li>
-            <li>Supports text, images, tables, and graphics</li>
-            <li>Easy to share and archive documents</li>
-            <li>Widely supported by software and web applications</li>
-          </ul>
-
-          <p>
-            Looking for more file formats? Browse our{" "}
-            <Link to="/sample-files">sample files collection</Link> including
-            DOCX, XLSX, CSV, JSON, XML, ZIP, JPG, PNG, MP3, MP4, and many other
-            file types.
-          </p>
+          
         </div>
       </section>
 

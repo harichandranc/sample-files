@@ -84,7 +84,7 @@ function WordFiles() {
 
       <section className="info-section">
         <div className="container">
-          <h2>FAQS?</h2>
+          
           <h2>What Are Sample Word Files?</h2>
 
           <p>

@@ -129,34 +129,7 @@ function ExcelFiles() {
             workflows, and reporting systems.
           </p>
 
-          <h2>Common Uses of Sample Excel Files</h2>
-
-          <ul>
-            <li>Excel upload form testing</li>
-            <li>Spreadsheet software validation</li>
-            <li>Database import and export testing</li>
-            <li>Business reporting applications</li>
-            <li>Data analysis tool testing</li>
-            <li>Software development projects</li>
-            <li>QA and quality assurance testing</li>
-            <li>Data migration and ETL workflows</li>
-          </ul>
-
-          <h2>Why Download Sample XLSX Files?</h2>
-
-          <p>
-            Sample Excel files help ensure your applications can correctly
-            process spreadsheet data before deployment. They are useful for
-            testing file uploads, validating import functionality, checking
-            file size limits, and verifying compatibility with Excel-compatible
-            software.
-          </p>
-
-          <p>
-            Looking for more file formats? Browse our{" "}
-            <Link to="/sample-files">sample files collection</Link> including
-            PDF, DOCX, CSV, JSON, XML, ZIP, MP3, MP4, and many other formats.
-          </p>
+          
         </div>
       </section>
 

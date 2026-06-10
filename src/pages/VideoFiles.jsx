@@ -130,44 +130,8 @@ function VideoFiles() {
             software development projects.
           </p>
 
-          <h2>Common Uses of Sample Video Files</h2>
 
-          <ul>
-            <li>Video upload testing</li>
-            <li>Streaming platform validation</li>
-            <li>Media player compatibility testing</li>
-            <li>Video converter testing</li>
-            <li>Cloud storage application testing</li>
-            <li>CDN and content delivery testing</li>
-            <li>Software development projects</li>
-            <li>Quality assurance and QA testing</li>
-          </ul>
-
-          <h2>Why Download Sample MP4 Files?</h2>
-
-          <p>
-            Sample video files help developers verify upload limits, playback
-            functionality, buffering performance, streaming quality, thumbnail
-            generation, transcoding workflows, and compatibility across devices
-            and browsers.
-          </p>
-
-          <h2>Benefits of MP4 Format</h2>
-
-          <ul>
-            <li>Widely supported across devices and browsers</li>
-            <li>Excellent compression and video quality</li>
-            <li>Ideal for web streaming and downloads</li>
-            <li>Compatible with most video players</li>
-            <li>Suitable for mobile and desktop applications</li>
-          </ul>
-
-          <p>
-            Looking for more file formats? Browse our{" "}
-            <Link to="/sample-files">sample files collection</Link> including
-            PDF, DOCX, XLSX, CSV, JSON, XML, ZIP, JPG, PNG, MP3, and many
-            other file formats.
-          </p>
+        
         </div>
       </section>
 
