@@ -72,9 +72,7 @@ function AudioFiles() {
 
       <section className="files-section">
         <div className="container">
-          <h2 className="section-title">
-            Available Audio Sample Files
-          </h2>
+          
 
           <div className="files-grid">
             {files.map((file) => (
@@ -117,16 +115,7 @@ function AudioFiles() {
             storage systems, and multimedia platforms.
           </p>
 
-          <h3>Common Uses</h3>
-
-          <ul>
-            <li>Audio upload testing</li>
-            <li>Media player testing</li>
-            <li>Audio converter testing</li>
-            <li>Streaming platform testing</li>
-            <li>Website and app development</li>
-            <li>File validation testing</li>
-          </ul>
+          
         </div>
       </section>
 
