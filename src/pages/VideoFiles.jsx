@@ -5,19 +5,19 @@ import { Link } from "react-router-dom";
 function VideoFiles() {
   const files = [
     {
-      name: "Sample MP4 Video (1 MB)",
-      size: "1 MB",
-      path: "/files/video/sample-1mb.mp4",
+      name: "Sample 480p Video",
+      size: "3.6 MB",
+      path: "/files/video/sample480p.mp4",
     },
     {
-      name: "Sample MP4 Video (5 MB)",
-      size: "5 MB",
-      path: "/files/video/sample-5mb.mp4",
+      name: "Sample 720p Video",
+      size: "11.7 MB",
+      path: "/files/video/sample720p.mp4",
     },
     {
-      name: "Sample MP4 Video (10 MB)",
-      size: "10 MB",
-      path: "/files/video/sample-10mb.mp4",
+      name: "Sample 1080p Video",
+      size: " 11.7 MB",
+      path: "/files/video/sample1080p.mp4",
     },
   ];
 
@@ -25,7 +25,7 @@ function VideoFiles() {
     <>
       <Helmet>
         <title>
-          Download Sample Video Files (MP4) Free - 1 MB, 5 MB, 10 MB
+          Download Sample Video Files (MP4) Free - 480p, 720p, 1080p
         </title>
 
         <meta
